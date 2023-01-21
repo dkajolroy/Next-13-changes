@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React, { Suspense } from "react";
-import { ProductType } from "../page";
 import { notFound } from "next/navigation";
 type ProductId = {
   params: {
